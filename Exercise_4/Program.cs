@@ -10,10 +10,12 @@ namespace Exercise_4
         public int max;
         public Stack()
         {
-            tasya = new tasya[30];
+            tasya = new string[30];
             top = -1;
             max = 30;
         }
+        
+
         static void Main(string[] args)
         {
         }
