@@ -28,11 +28,11 @@ namespace Exercise_4
                 tasya[top] = Console.ReadLine();
             }
         }
-        public void pop()
+        public int pop()
         {
             if (top == -1)
             {
-                Console.Write("Stack Underflow");
+                Console.WriteLine("Stack Underflow");
                 return -1;
             }
             else
@@ -83,7 +83,7 @@ namespace Exercise_4
                         s.pop();
                         break;
                     case '3':
-                        Sz.display();
+                        s.display();
                         break;
                     case '4':
                         return;
