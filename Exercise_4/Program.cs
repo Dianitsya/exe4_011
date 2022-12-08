@@ -14,10 +14,15 @@ namespace Exercise_4
             top = -1;
             max = 30;
         }
-        
-
-        static void Main(string[] args)
+        public void push()
         {
+            if (top == max - 1)
+            {
+                Console.WriteLine("Stack Overflow");
+                return;
+           
+                }
+            }
         }
     }
 }
