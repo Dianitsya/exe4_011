@@ -20,8 +20,12 @@ namespace Exercise_4
             {
                 Console.WriteLine("Stack Overflow");
                 return;
-           
-                }
+            }
+            else
+            {
+                top++;
+                Console.Write(("Pushed element is: "));
+                tasya[top] = Console.ReadLine();
             }
         }
     }
