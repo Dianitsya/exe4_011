@@ -28,5 +28,13 @@ namespace Exercise_4
                 tasya[top] = Console.ReadLine();
             }
         }
+        public int pop()
+        {
+            if (top == -1)
+            {
+                Console.Write("Stack Underflow");
+                return -1;
+            }
+        }   
     }
 }
